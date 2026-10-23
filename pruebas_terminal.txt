@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0 -- /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3
+cachedir: .pytest_cache
+rootdir: /workspace/scratch/b24e2b2d3ccd/output/lab04_xunit
+collecting ... collected 6 items
+
+tests/test_bubble_sort.py::test_empty_or_single_element[values0] PASSED  [ 16%]
+tests/test_bubble_sort.py::test_empty_or_single_element[values1] PASSED  [ 33%]
+tests/test_bubble_sort.py::test_one_swap PASSED                          [ 50%]
+tests/test_bubble_sort.py::test_already_sorted_values PASSED             [ 66%]
+tests/test_bubble_sort.py::test_values_need_swaps_and_multiple_passes PASSED [ 83%]
+tests/test_bubble_sort.py::test_duplicates_are_kept PASSED               [100%]
+
+============================== 6 passed in 0.02s ===============================

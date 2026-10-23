@@ -1,0 +1,8 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.7.0
+rootdir: /workspace/scratch/b24e2b2d3ccd/output/lab04_xunit
+collected 5 items
+
+tests/test_bubble_sort.py .....                                          [100%]
+
+============================== 5 passed in 0.03s ===============================
